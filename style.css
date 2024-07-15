@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.fondo {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent),
+    url("https://img.supercarros.com/AdsPhotos/1024x768/0/12604235.jpg?wmo=f2615bbbf15508b9b94907fcf6b8636d3c859d87e563e9609811a1f2788a82e03cdb9d2afa91dc3d938db0b3f6776a6f3eb4857f7afcd5d2e68264d58c26fae9");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 60vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h3 {
+  font-weight: lighter;
+}
+.padre {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.hijo {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.perfil {
+  border-radius: 100%;
+}
+
+.Contenido {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.search-bar input[type="text"],
+.search-bar input[type="date"] {
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  flex: 1;
+}
+
+.search-bar button {
+  background-color: green;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.search-bar input[type="text"]:focus,
+.search-bar input[type="date"]:focus {
+  outline: none;
+}
+
+.categoria {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.grid-items {
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0px 7px 0 rgb(192, 191, 191);
+  border: 1px solid black;
+}
+
+.imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.description {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.color-negro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 400px;
+  background-color: black;
+  color: white;
+  row-gap: 20px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.boton-vermas,
+.boton-explorar {
+  border: 1px solid gray;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+}
+.boton-vermas:hover,
+.boton-explorar:hover {
+  opacity: 0.3;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+.Publicar {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+}
+.boton-explorar {
+  background-color: rgb(16, 202, 16);
+  color: white;
+  width: 200px;
+}
